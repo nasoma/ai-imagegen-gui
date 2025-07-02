@@ -25,13 +25,12 @@ from PyQt5.QtWidgets import (
     QScrollArea,
     QComboBox,
     QLineEdit,
-    QMenuBar,
     QAction,
     QDialog,
     QFormLayout,
 )
 from PyQt5.QtCore import QThread, pyqtSignal, Qt
-from PyQt5.QtGui import QFont, QPixmap, QIcon, QPalette, QColor
+from PyQt5.QtGui import QFont, QPixmap, QPalette, QColor
 from PIL import Image
 from openai import OpenAI
 
@@ -886,7 +885,7 @@ def main():
     # Force light palette for consistent appearance, so it doesnt default to dark mode
     palette = QPalette()
     palette.setColor(QPalette.Window, QColor(245, 245, 245))
-    palette.setColor(QPalette.WindowText, Qt.black)
+    palette.setColor(QPalette.WindowText, Qt.white)
     palette.setColor(QPalette.Base, QColor(255, 255, 255))
     palette.setColor(QPalette.Text, Qt.black)
     palette.setColor(QPalette.Button, QColor(240, 240, 240))
