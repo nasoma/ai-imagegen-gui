@@ -1,0 +1,26 @@
+.DS_Store
+AI-Image-Generator-Installer.dmg
+best.py
+main.py
+test.py
+__pycache__/main.cpython-312.pyc
+build/AI Image Generator/AI Image Generator.pkg
+build/AI Image Generator/Analysis-00.toc
+dist/AI Image Generator.app/Contents/Resources/MyIcon.icns
+dist/AI Image Generator.app/Contents/MacOS/AI Image Generator
+dist/AI Image Generator.app/Contents/_CodeSignature/CodeResources
+dist/AI Image Generator.app/Contents/Info.plist
+dist/AI Image Generator
+build/bdist.macosx-11.0-arm64/python3.12-standalone/app/temp/empty_package/__init__.py
+build/AI Image Generator/localpycs/struct.pyc
+build/AI Image Generator/localpycs/pyimod03_ctypes.pyc
+build/AI Image Generator/localpycs/pyimod02_importers.pyc
+build/AI Image Generator/localpycs/pyimod01_archive.pyc
+build/AI Image Generator/xref-AI Image Generator.html
+build/AI Image Generator/warn-AI Image Generator.txt
+build/AI Image Generator/PYZ-00.toc
+build/AI Image Generator/PYZ-00.pyz
+build/AI Image Generator/PKG-00.toc
+build/AI Image Generator/base_library.zip
+build/AI Image Generator/BUNDLE-00.toc
+build/AI Image Generator/EXE-00.toc
