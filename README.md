@@ -133,4 +133,4 @@ To create a user-friendly installer for macOS, you can use `create-dmg`.
 
 ## License
 
-© 2025 Nasoma. All rights reserved.
+See the [LICENSE](LICENSE) file for details.
