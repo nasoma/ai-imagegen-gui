@@ -85,7 +85,7 @@ class AboutDialog(QDialog):
         layout.addWidget(description)
 
         # Copyright
-        copyright_label = QLabel("© 2025 Antole. All rights reserved.")
+        copyright_label = QLabel("© 2025 Nasoma. All rights reserved.")
         copyright_label.setFont(QFont("Arial", 10))
         copyright_label.setAlignment(Qt.AlignCenter)
         copyright_label.setStyleSheet("color: #666666; margin: 5px 0;")
