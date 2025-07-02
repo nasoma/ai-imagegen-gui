@@ -133,4 +133,4 @@ To create a user-friendly installer for macOS, you can use `create-dmg`.
 
 ## License
 
-See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
