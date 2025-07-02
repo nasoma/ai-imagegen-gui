@@ -31,9 +31,10 @@ from PyQt5.QtWidgets import (
     QFormLayout,
 )
 from PyQt5.QtCore import QThread, pyqtSignal, Qt
-from PyQt5.QtGui import QFont, QPixmap, QIcon
+from PyQt5.QtGui import QFont, QPixmap, QIcon, QPalette, QColor
 from PIL import Image
 from openai import OpenAI
+
 
 # Constants for keyring service and username
 KEYRING_SERVICE = "ai_image_generator"
@@ -880,7 +881,19 @@ class ImageGeneratorApp(QMainWindow):
 
 
 def main():
+
     app = QApplication(sys.argv)
+    # Force light palette for consistent appearance, so it doesnt default to dark mode
+    palette = QPalette()
+    palette.setColor(QPalette.Window, QColor(245, 245, 245))
+    palette.setColor(QPalette.WindowText, Qt.black)
+    palette.setColor(QPalette.Base, QColor(255, 255, 255))
+    palette.setColor(QPalette.Text, Qt.black)
+    palette.setColor(QPalette.Button, QColor(240, 240, 240))
+    palette.setColor(QPalette.ButtonText, Qt.black)
+    palette.setColor(QPalette.Highlight, QColor(123, 104, 238))  # Dark Violet
+    app.setPalette(palette)
+
     app.setApplicationName("AI Image Generator")
     window = ImageGeneratorApp()
     window.show()
