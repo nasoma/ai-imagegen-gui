@@ -1,5 +1,7 @@
 # AI Image Generator
 
+![App Screenshot](demo.png)
+
 This is a Python-based GUI application for generating AI images, built using PyQt5. **This application is currently designed for macOS only.** It leverages the Nebius AI platform for image generation and prompt enhancement.
 
 ## Features
