@@ -792,9 +792,9 @@ class ImageGeneratorApp(QMainWindow):
             )
             return
 
-        if not (64 <= width <= 4096 and 64 <= height <= 4096):
+        if not (64 <= width <= 2048 and 64 <= height <= 2048):
             QMessageBox.warning(
-                self, "Warning", "Image size must be between 64x64 and 4096x4096"
+                self, "Warning", "Image size must be between 64x64 and 2048x2048"
             )
             return
 
