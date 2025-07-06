@@ -7,7 +7,7 @@ This is a Python-based GUI application for generating AI images, built using PyQ
 ## Features
 
 *   **Image Generation**: Generate high-quality PNG images using various predefined or custom sizes.
-*   **Prompt Enhancement**: Automatically enhance your image generation prompts to be more detailed, vivid, and creative using Nebius AI's language model.
+*   **Prompt Enhancement**: Automatically enhance your image generation prompts to be more detailed, vivid, and creative using `microsoft/phi-4` model served by Nebius AI.
 *   **API Key Management**: Securely store and retrieve your Nebius AI API key using `keyring` (macOS Keychain for macOS users).
 *   **Image Download**: Save generated images to your local machine.
 *   **User-Friendly Interface**: Intuitive graphical interface for easy interaction.
@@ -18,6 +18,7 @@ This is a Python-based GUI application for generating AI images, built using PyQ
 *   **Nebius AI**:
     *   `black-forest-labs/flux-dev`: Image generation model.
     *   `microsoft/phi-4`: Prompt enhancement model.
+    A single subscription gives you access to both models among others.
 *   **`keyring`**: Secure storage of API keys.
 *   **`requests`**: For making HTTP requests to the Nebius AI API.
 *   **`Pillow` (PIL)**: For image manipulation and handling.
